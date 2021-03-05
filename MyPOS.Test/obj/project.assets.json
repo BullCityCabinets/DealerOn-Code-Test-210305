@@ -5684,11 +5684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Test\\MyPOS.Test.csproj",
+      "projectUniqueName": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Test\\MyPOS.Test.csproj",
       "projectName": "MyPOS.Test",
-      "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Test\\MyPOS.Test.csproj",
+      "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Test\\MyPOS.Test.csproj",
       "packagesPath": "C:\\Users\\ScumS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Test\\obj\\",
+      "outputPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5711,14 +5711,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Consola\\MyPOS.Consola.csproj": {
-              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Consola\\MyPOS.Consola.csproj"
+            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Consola\\MyPOS.Consola.csproj": {
+              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Consola\\MyPOS.Consola.csproj"
             },
-            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Models\\MyPOS.Models.csproj": {
-              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Models\\MyPOS.Models.csproj"
+            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Models\\MyPOS.Models.csproj": {
+              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Models\\MyPOS.Models.csproj"
             },
-            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\Services\\MyPOS.Services.csproj": {
-              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\Services\\MyPOS.Services.csproj"
+            "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Services\\MyPOS.Services.csproj": {
+              "projectPath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Services\\MyPOS.Services.csproj"
             }
           }
         }

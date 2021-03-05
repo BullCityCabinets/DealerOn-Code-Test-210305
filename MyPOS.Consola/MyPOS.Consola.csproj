@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\MyPOS.Models\MyPOS.Models.csproj" />
     <ProjectReference Include="..\MyPOS.Services\MyPOS.Services.csproj" />
-    <ProjectReference Include="..\Services\MyPOS.Services.csproj" />
   </ItemGroup>
 
 </Project>

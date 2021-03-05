@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rvHPlVHxg14zZ2JXku0KvrH5KBwfHvHAMj5yO3hA0McCrm7laSWe66o1oBMoezcJZfzcBS5W8wpFeUN1UTFo7Q==",
+  "dgSpecHash": "d+UDOrVYbhioQaKGxP29AuK2QscvU9l9CEfSFm23GSq8QCjqslSyVe92mQucHIT1RBPnjKkwaFITbTa4ZKan5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\MyPOS.Test\\MyPOS.Test.csproj",
+  "projectFilePath": "C:\\Users\\ScumS\\source\\repos\\My Point-of-Sale Solution\\DealerOn-Code-Test-210305\\MyPOS.Test\\MyPOS.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ScumS\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\ScumS\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
