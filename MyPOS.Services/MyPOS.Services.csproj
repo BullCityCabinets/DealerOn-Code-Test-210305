@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Tax\DefaultTaxService.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Tax\DefaultTaxService.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyPOS.Models\MyPOS.Models.csproj" />
+  </ItemGroup>
+
+</Project>

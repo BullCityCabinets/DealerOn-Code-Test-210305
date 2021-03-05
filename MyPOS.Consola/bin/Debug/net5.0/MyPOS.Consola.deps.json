@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MyPOS.Consola/1.0.0": {
+        "dependencies": {
+          "MyPOS.Models": "1.0.0",
+          "MyPOS.Services": "1.0.0"
+        },
+        "runtime": {
+          "MyPOS.Consola.dll": {}
+        }
+      },
+      "MyPOS.Models/1.0.0": {
+        "runtime": {
+          "MyPOS.Models.dll": {}
+        }
+      },
+      "MyPOS.Services/1.0.0": {
+        "dependencies": {
+          "MyPOS.Models": "1.0.0"
+        },
+        "runtime": {
+          "MyPOS.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPOS.Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPOS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPOS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

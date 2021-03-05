@@ -1,0 +1,12 @@
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.csprojAssemblyReference.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.AssemblyInfoInputs.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.AssemblyInfo.cs
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.csproj.CoreCompileInputs.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\bin\Debug\net5.0\MyPOS.Models.deps.json
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\bin\Debug\net5.0\MyPOS.Models.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\bin\Debug\net5.0\ref\MyPOS.Models.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\bin\Debug\net5.0\MyPOS.Models.pdb
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\ref\MyPOS.Models.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\MyPOS.Models\obj\Debug\net5.0\MyPOS.Models.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MyPOS.Models/1.0.0": {
+        "runtime": {
+          "MyPOS.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPOS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Debug\net5.0\Services.csprojAssemblyReference.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache

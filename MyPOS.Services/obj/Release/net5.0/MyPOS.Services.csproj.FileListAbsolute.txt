@@ -1,0 +1,15 @@
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\MyPOS.Services.deps.json
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\MyPOS.Services.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\ref\MyPOS.Services.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\MyPOS.Services.pdb
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\MyPOS.Models.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\bin\Release\net5.0\MyPOS.Models.pdb
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.csprojAssemblyReference.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.AssemblyInfoInputs.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.AssemblyInfo.cs
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.csproj.CoreCompileInputs.cache
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.csproj.CopyComplete
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\ref\MyPOS.Services.dll
+C:\Users\ScumS\source\repos\My Point-of-Sale Solution\Services\obj\Release\net5.0\MyPOS.Services.pdb
