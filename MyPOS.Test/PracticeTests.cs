@@ -2,6 +2,8 @@ using MyPOS.Models;
 using MyPOS.Services.ShoppingMethod;
 using MyPOS.Services.Tax;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using Xunit;
 
@@ -48,6 +50,7 @@ namespace MyPOS.Test
 
 
         }
+
 
 
     }

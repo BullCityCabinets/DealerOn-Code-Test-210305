@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyPOS.Models
 {
@@ -35,7 +32,7 @@ namespace MyPOS.Models
             {
                 Manifest.Add(purchase);
             }
-            TaxSubtotal += Math.Round(purchase.TaxCharged,2);
+            TaxSubtotal += purchase.TaxCharged;
             PrintReceipt();
         }
 
@@ -52,8 +49,7 @@ namespace MyPOS.Models
                 {
                     double extendedTotal = (p.ListPrice + p.TaxCharged) * p.Quantity;
 
-                    toPrint.Add($"{nameToPrint}: {extendedTotal.ToString("F2")} ({p.Quantity} @ {(p.ListPrice + p.TaxCharged).ToString("F2")} )");
-                    //toPrint.Add($"{nameToPrint}: {extendedTotal.ToString()} ({p.Quantity} @ {Math.Round((p.ListPrice + p.TaxCharged),2).ToString()} )");
+                    toPrint.Add($"{nameToPrint}: {extendedTotal.ToString("F2")} ({p.Quantity} @ {(p.ListPrice + p.TaxCharged).ToString("F2")})");
                     grandTotal += extendedTotal;
                 }
                 else
@@ -64,15 +60,10 @@ namespace MyPOS.Models
             }
 
             toPrint.Add($"Sales Taxes: {TaxSubtotal.ToString("F2")}");
-            //toPrint.Add($"Sales Taxes: {Math.Round(TaxSubtotal,2).ToString()}");
+            toPrint.Add($"Total: {grandTotal.ToString("F2")}");
 
-
-            //toPrint.Add($"Total: {grandTotal.ToString("F2")}");
-            toPrint.Add($"Total: {Math.Round(grandTotal, 2)}");
-            //toPrint.Add($"Total: {Math.Round(grandTotal,2).ToString()}");
 
             Console.ForegroundColor = ConsoleColor.White;
-
             Console.WriteLine();
             foreach (var item in toPrint)
             {

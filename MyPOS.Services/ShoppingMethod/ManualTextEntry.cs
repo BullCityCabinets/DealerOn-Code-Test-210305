@@ -1,9 +1,5 @@
 ﻿using MyPOS.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MyPOS.Services.Tax;
 
 namespace MyPOS.Services.ShoppingMethod
@@ -41,14 +37,14 @@ namespace MyPOS.Services.ShoppingMethod
                     {
                         try  //Is the last part a price?
                         {
-                            if (Math.Round(GetPrice(breakout[breakout.Length - 1]), 2) <= 0)
+                            if (GetPrice(breakout[breakout.Length - 1]) <= 0)
                             {
                                 PrintSyntaxError("Valid input requires a price specified (nothing at this store is free).");
                                 return false;
                             }
                             try  //Is the first part a quantity?
                             {
-                                if (Math.Round(GetCount(breakout[0]), 0) <= 0)
+                                if (GetCount(breakout[0]) <= 0)
                                 {
                                     PrintSyntaxError("All purchase require specified quanitities");
                                     return false;
@@ -95,7 +91,7 @@ namespace MyPOS.Services.ShoppingMethod
         {
             string[] breakout = userInput.Split(' ');
 
-            var quanitity = (int)Math.Round(GetCount(breakout[0]), 0);
+            var quanitity = (int)GetCount(breakout[0]);
 
             string name = "";
             for (int i = 1; i < breakout.Length - 2; i++)
@@ -103,7 +99,7 @@ namespace MyPOS.Services.ShoppingMethod
                 name += breakout[i].Trim() + " ";
             }
 
-            double price = Math.Round(GetPrice(breakout[breakout.Length - 1]), 2);
+            double price = GetPrice(breakout[breakout.Length - 1]);
             
             bool isImported = TestForImportedStatus(breakout[1].ToLowerInvariant());
             double importDuty = 0;
@@ -121,7 +117,7 @@ namespace MyPOS.Services.ShoppingMethod
             Console.ForegroundColor = _outputColor;
             Console.WriteLine($"{userInput} added to your shopping basket.");
 
-            double combinedTaxes = Math.Round(importDuty,2) + Math.Round(salesTax,2);
+            double combinedTaxes = importDuty + salesTax;
             return new Purchase(new Product(name.Trim(), price), quanitity, combinedTaxes);
 
         }
